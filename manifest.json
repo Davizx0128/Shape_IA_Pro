@@ -1,0 +1,24 @@
+{
+  "name": "ShapeAI — AI Fitness Coach",
+  "short_name": "ShapeAI",
+  "description": "Your AI-powered personal trainer & nutritionist",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#050508",
+  "theme_color": "#050508",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='115' fill='%23050508'/><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' stop-color='%23C8F557'/><stop offset='100%25' stop-color='%234ADE80'/></linearGradient></defs><text x='256' y='360' font-size='300' text-anchor='middle' fill='url(%23g)'>⚡</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "fitness", "lifestyle"],
+  "shortcuts": [
+    { "name": "Dashboard", "url": "./index.html#dashboard", "description": "Ver resumo do dia" },
+    { "name": "Treino de Hoje", "url": "./index.html#workout", "description": "Iniciar treino" },
+    { "name": "Registrar Alimento", "url": "./index.html#nutrition", "description": "Logar refeição" }
+  ]
+}
